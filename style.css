@@ -1,0 +1,63 @@
+:root{
+    --nav-background-color :  rgb(252, 246, 246);
+    --section-background-color :  rgb(218, 214, 218);
+    --paragraph-background-color : white;
+    --bor-show-color: black;
+}
+.darkTheme{
+    background-color: black;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.divDark{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 13px -4px white;
+    transition: .3s ease-in-out;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+section{
+    width: 100vw;
+    height: 92vh;
+    background-color: var(--section-background-color);
+    display: flex;
+    justify-content: space-evenly;
+}
+.paragraph{
+    margin-top: 5rem;
+    line-height: 1.5;
+    padding: 0 2rem;
+    font-size: 1.1rem;
+    width: 25vw;
+    /* height: 45vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 13px -4px var(--bor-show-color);
+}
